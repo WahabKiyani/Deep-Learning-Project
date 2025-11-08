@@ -1,0 +1,42 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Jupyter Notebook ───
+.ipynb_checkpoints/
+
+# ─── Virtual Environments ───
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Model Checkpoints (too large for git) ───
+Q1/checkpoints/*.pth
+Q1/checkpoints/*.pt
+
+# ─── Reports (binary, share via releases) ───
+Report.pdf
+
+# ─── Misc ───
+*.log
+*.tmp
